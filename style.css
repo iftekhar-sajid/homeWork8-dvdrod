@@ -222,6 +222,12 @@ align-items: center;
     padding: 10px;
 }
 
+marquee{
+    border-top:1px solid #93938F;
+     border-bottom:1px solid #93938F;
+}
+
+                /* work */
 .Work-body{
 
     gap: 5rem;
@@ -312,4 +318,5 @@ border-top:#93938F .1px solid ;
 display: flex;
 justify-content: space-between;
 padding-left: 50px;
+border-bottom: .5px solid #93938F;
 }
