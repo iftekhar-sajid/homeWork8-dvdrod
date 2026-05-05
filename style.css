@@ -1,10 +1,8 @@
 *, *::before, *::after {
   margin: 0;
   padding: 0;
-  b1ox-sizing: border-box;
-  
+  box-sizing: border-box;
 }
-
 /* text Unit */
 .txBig{
     font-size: 11rem;
@@ -19,7 +17,7 @@ color: #edede8;
 .txBig2{
     font-size: 8.1rem;
     font-weight: 800;
-    letter-spacing: ;
+    letter-spacing:5px ;
     line-height: 97px;
 font-family:sans-serif;
 color: #edede8;
@@ -389,4 +387,8 @@ transform-origin: left;
 
 .txHovr-a:hover::after { 
     
+
    transform: scaleX(1); }
+
+  
+
