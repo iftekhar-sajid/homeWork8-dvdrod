@@ -23,6 +23,7 @@ color: #edede8;
     line-height: 97px;
 font-family:sans-serif;
 color: #edede8;
+font-family: 'Syne', sans-serif;
 }
 
 .txBig3{
@@ -132,20 +133,25 @@ color: #93938f;
 .bnt-hvr{
 border: 1px solid #93938F;
 border-radius: 25px;
-padding : 7px 14px;
+padding :1% 2%;
 font-family:sans-serif;
 text-decoration: none;
 color: #93938f;
+    font-size: .75rem;
+        letter-spacing: 2px;
+        text-decoration: none;
 }
 
 .bnt{
     text-decoration: none;
     border: 1px solid #93938F;
 border-radius: 25px;
-padding :2px 3px ;
+padding :2% 3% ;
 color: #edede8;
-    font-size: .75rem;
+    font-size: .60rem;
         letter-spacing: 2px;
+        text-decoration: none;
+     
 
 }
 
@@ -222,6 +228,17 @@ align-items: center;
     padding: 10px;
 }
 
+marquee{ 
+    height: 20px;
+width: 100%;
+color: #93938F;
+border-bottom:#93938F .5px dotted ;
+border-top:#93938F .5px dotted ;
+  overflow: hidden;
+  white-space: nowrap;
+  
+}
+
 .Work-body{
 
     gap: 5rem;
@@ -250,6 +267,9 @@ border-radius: 10px;
 
     width: 100vh;
     height: 50vh;
+    
+    position: relative;
+    overflow: hidden;
 }
 .work-card-cont{
     display: block;
@@ -264,7 +284,7 @@ border-radius: 10px;
 }
 .work-card-cont{
     display: block;
-    flex-direction: ;
+    /* flex-direction: ; */
 }
 
 .holder-parsnt{
@@ -313,3 +333,59 @@ display: flex;
 justify-content: space-between;
 padding-left: 50px;
 }
+.skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}      
+
+/* tx hover */
+
+
+.txBig-hvr{
+    font-size: 8.1rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+    line-height: 97px;
+font-family:sans-serif;
+color: #edede8;
+font-family: 'Syne', sans-serif;
+}
+
+.txHovr{
+    position: relative;
+    display: inline-block;
+  overflow: hidden;
+  color: #edede8;
+} 
+.txHovr-a{
+text-decoration: none;
+color:#edede8;
+}
+ .txHovr-a:hover { 
+   
+    color: #FF3D00;
+} 
+ 
+.txHovr-a::after {
+    content: " ";
+     position: absolute;
+  font-weight: bold;
+  width: 100%;
+  background-color: #FF3D00;
+  transition: width 0.55s cubic-bezier(0.25,0.46,0.45,0.94);
+} 
+
+/* .txHovr-a::after{
+    content: " ";
+     position: absolute;
+  color: red;
+  font-weight: bold;
+} */
+
+/* .txHovr:hover { color: #FF3D00;; }
+.txHovr:hover::after { width: 100%; }
+.txHovr-a:hover::after { width: 100%; }
+
+*/
