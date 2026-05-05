@@ -228,9 +228,11 @@ align-items: center;
     padding: 10px;
 }
 
-<<<<<<< HEAD
+
 marquee{ 
-    height: 20px;
+    
+    text-align: center;
+    height: 50px;
 width: 100%;
 color: #93938F;
 border-bottom:#93938F .5px dotted ;
@@ -240,14 +242,8 @@ border-top:#93938F .5px dotted ;
   
 }
 
-=======
-marquee{
-    border-top:1px solid #93938F;
-     border-bottom:1px solid #93938F;
-}
-
                 /* work */
->>>>>>> 90fa706fe35c4646d04893171e4cf5fb4e564fb6
+
 .Work-body{
 
     gap: 5rem;
