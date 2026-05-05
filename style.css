@@ -380,26 +380,20 @@ color:#edede8;
  
 .txHovr-a::after {
     content: " ";
+    display: block;
+  overflow: hidden;
      position: absolute;
   font-weight: bold;
   width: 100%;
+  height: 4px;
   background-color: #FF3D00;
-  transition: width 0.55s cubic-bezier(0.25,0.46,0.45,0.94);
+  transition:transform 0.5ms ease-out;
+transform: scaleX(0);
+transform-origin: left;
 } 
 
-/* .txHovr-a::after{
-    content: " ";
-     position: absolute;
-  color: red;
-  font-weight: bold;
-} */
+.txHovr-a:hover::after { 
+    
+   transform: scaleX(1); }
 
-/* .txHovr:hover { color: #FF3D00;; }
-.txHovr:hover::after { width: 100%; }
-.txHovr-a:hover::after { width: 100%; }
 
-*/
-=======
-border-bottom: .5px solid #93938F;
-}
->>>>>>> 90fa706fe35c4646d04893171e4cf5fb4e564fb6
