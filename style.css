@@ -228,6 +228,7 @@ align-items: center;
     padding: 10px;
 }
 
+<<<<<<< HEAD
 marquee{ 
     height: 20px;
 width: 100%;
@@ -239,6 +240,14 @@ border-top:#93938F .5px dotted ;
   
 }
 
+=======
+marquee{
+    border-top:1px solid #93938F;
+     border-bottom:1px solid #93938F;
+}
+
+                /* work */
+>>>>>>> 90fa706fe35c4646d04893171e4cf5fb4e564fb6
 .Work-body{
 
     gap: 5rem;
@@ -332,6 +341,7 @@ border-top:#93938F .1px solid ;
 display: flex;
 justify-content: space-between;
 padding-left: 50px;
+<<<<<<< HEAD
 }
 .skill{
     display: flex;
@@ -389,3 +399,7 @@ color:#edede8;
 .txHovr-a:hover::after { width: 100%; }
 
 */
+=======
+border-bottom: .5px solid #93938F;
+}
+>>>>>>> 90fa706fe35c4646d04893171e4cf5fb4e564fb6
